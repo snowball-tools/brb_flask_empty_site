@@ -1,23 +1,23 @@
----
-title: Flask
-description: A popular minimal server framework for Python
-tags:
-  - python
-  - flask
----
+# Passkeys brb
 
-# Python Flask Example
+## Getting Started
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+### Virtual Environment
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+| Command | Task |
+| --- | --- |
+| `python -m venv venv` | create |
+| `. venv/bin/activate` | activate |
+| `deactivate` | deactivate |
 
-## ✨ Features
+### Dependencies
 
-- Python
-- Flask
+```bash
+pip install -r requirements.txt
+```
 
-## 💁‍♀️ How to use
+### Dev
 
-- Install Python requirements `pip install -r requirements.txt`pmma
-- Start the server for development `python3 main.py`
+```bash
+python3 main.py
+```
